@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="makeEditable">
+<head>
+    <meta charset="UTF-8">
+    <title>editable directive</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .red { color:red; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-12 text-center">
+                <div make-editable>
+                  <p>Content that will become editable when the directive rendered.</p>
+                </div>
+
+
+                <div make-editable>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet odio erat, vitae sollicitudin lectus aliquet vitae. Duis et convallis elit. Sed luctus dui id leo blandit malesuada. Fusce purus arcu, hendrerit mattis ex quis, faucibus porttitor sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque non eleifend augue. Pellentesque scelerisque, nunc ut luctus consectetur, est quam tincidunt nulla, quis porta ante augue a quam.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <script type="text/javascript" src="bower_components/angularjs/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

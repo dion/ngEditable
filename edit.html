@@ -1,0 +1,4 @@
+<div contenteditable="{{ edit.editable }}" ng-class="{red: edit.editable }" ng-transclude></div>
+
+	<input type="button" value="edit" ng-click="edit.toggleEdit()" ng-if="!edit.editable">
+	<input type="button" value="save" ng-click="edit.saveEdit()" ng-if="edit.editable">
